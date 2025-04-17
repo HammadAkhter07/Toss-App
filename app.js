@@ -22,14 +22,14 @@ function toss(coin){
          } else {
             result.innerHTML = "YOU LOST"
          }
-         
+
     if (randomNumber === 0){
         img.src = masjidImage   
     }else {
         img.src = chandImage
     }
 
-
+result.style.padding = "10px";
 }
 
 
